@@ -2,9 +2,18 @@
 {
     public class Program
     {
-        static void Main(string[] args)
+        static void Main(string[]args)
         {
-            Console.WriteLine("Hello, World!");
+            var classic = new Cars();
+
+            classic.Make = "Epiphony";
+            classic.Model = "Highspeed Bolt";
+            classic.Year = 2023;
+
+            Console.WriteLine($"This is{classic.Make} {classic.Model} {classic.Year}");
+
+
+        
         }
     }
 }
