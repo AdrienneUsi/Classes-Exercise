@@ -10,7 +10,7 @@
             classic.Model = "Highspeed Bolt";
             classic.Year = 2023;
 
-            Console.WriteLine($"This is{classic.Make} {classic.Model} {classic.Year}");
+            Console.WriteLine($"This is a {classic.Make} {classic.Model} {classic.Year} car.");
 
 
         
